@@ -1,3 +1,13 @@
 //import Image from "next/image";
- 
-x
+
+import React from 'react'
+import Topo from  './components/Topo.tsx'
+
+export default function Home(){
+    
+    <Topo/>
+    return(
+
+    )
+
+}
