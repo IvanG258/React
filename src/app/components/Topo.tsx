@@ -8,8 +8,8 @@ return nome
 }
   return (
       <main >
-<div className="flex items-center">
-        <p className="flex text-xs">{mostraNome()}</p>
+<div className="flex items-center justify-center">
+        <p className="">{mostraNome()}<br/></p>
         <p>{role}</p>
  </div>
       </main>
