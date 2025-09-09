@@ -1,13 +1,17 @@
+//header definition
+  let nome="Ivan Guitimela"
+  let role="Software Developer"
 export default function Home() {
 //Arrow functions
 const mostraNome=()=>{
-  let nome="Ivan Gutinha"
-  nome="Joao Gabriel"
 return nome
 }
   return (
       <main >
-        <p>{mostraNome()}</p>
+<div className="flex items-center">
+        <p className="flex text-xs">{mostraNome()}</p>
+        <p>{role}</p>
+ </div>
       </main>
       );
 }
