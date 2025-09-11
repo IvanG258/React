@@ -11,6 +11,7 @@ return nome
 <div className="flex items-center justify-center">
         <p className="">{mostraNome()}<br/></p>
         <p>{role}</p>
+        <p>Desenvlvedor de softawere com paixao no desenvolvimento de interfaces bonitas e devidamente interativas</p>
  </div>
       </main>
       );
