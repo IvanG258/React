@@ -9,8 +9,10 @@ return nome
   return (
       <main >
 <div className="flex items-center justify-center">
+       <div>
         <p className="">{mostraNome()}<br/></p>
         <p>{role}</p>
+      </div>
         <p>Desenvlvedor de softawere com paixao no desenvolvimento de interfaces bonitas e devidamente interativas</p>
  </div>
       </main>
