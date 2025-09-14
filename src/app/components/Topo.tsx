@@ -6,10 +6,13 @@ export default function Home() {
 const mostraNome=()=>{
 return nome
 }
+function janela(){
+  alert()
+}
   return (
       <main >
 <div className="flex items-center justify-center">
-       <div>
+       <div className="block">
         <p className="">{mostraNome()}<br/></p>
         <p>{role}</p>
       </div>
