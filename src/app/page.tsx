@@ -6,13 +6,15 @@ import Topo from  './components/Topo.tsx'
 export default function Home(){
     
     return(
-<div>
+<html lang="en">
     <head>
         <link rel="icon" href="/file.svg" type="image/png" />
-        <title>Personal Page</title>
+        <title>Ivan Guitimela</title>
     </head>
-   <Topo/>
-</div>
+   <body className="">
+   <Headerp/>
+   </body>
+</html>
     );
 
 }

@@ -1,1 +1,3 @@
-functio
+function janela(){
+  alert('nome')
+}
